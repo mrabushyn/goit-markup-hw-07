@@ -1,0 +1,38 @@
+
+.title--hidden {
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    margin-bottom: -1px;
+    padding-bottom: 0;
+}
+
+.about_item {
+    width: 100%;
+    height: 120px;
+    background-color: var(--backgrd-color);
+    border-radius: 4px;
+    margin-bottom: var(--margin-30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_margin:not(:last-child) {
+    margin-right: var(--margin-30);
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: var(--margin-10);
+}
+
+.about_text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}

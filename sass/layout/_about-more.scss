@@ -1,0 +1,29 @@
+.about-more {
+    padding-top: 0px;
+}
+
+.about-img {
+    flex-basis: calc(100% / 3);
+    margin-right: var(--margin-30);
+}
+
+.about-more-wrap {
+    position: relative;
+}
+
+.about-more-text {
+    width: calc(100% - 30px);
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background: #2f303acc;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
