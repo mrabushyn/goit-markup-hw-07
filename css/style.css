@@ -56,7 +56,7 @@ img {
     align-items: center;
 }
 
-.header-flex {
+.menu-list {
     display: flex;
 }
 
@@ -71,7 +71,7 @@ img {
     margin-right: 93px;
 }
 
-.logo-style {
+.logo--black {
     color: var(--main-color);
 }
 
