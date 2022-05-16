@@ -18,6 +18,9 @@
 .masters-name {
     padding-top: var(--margin-30);
     padding-bottom: var(--margin-30);
+    .icon-flex {
+        margin: 0 32px;
+    }
 }
 
 .masters-list {
@@ -38,10 +41,6 @@
     margin-bottom: 16px;
 }
 
-.masters-name > .icon-flex {
-    margin: 0 32px;
-}
-
 .masters-soc-item {
     width: 100%;
     height: 44px;
@@ -52,7 +51,6 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .masters-soc-item:not(:last-child) {
