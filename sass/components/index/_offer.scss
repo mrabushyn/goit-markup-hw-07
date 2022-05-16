@@ -1,17 +1,17 @@
-.about-more {
+.offer {
     padding-top: 0px;
 }
 
-.about-img {
+.offer__img {
     flex-basis: calc(100% / 3);
     margin-right: var(--margin-30);
 }
 
-.about-more-wrap {
+.offer__wrap {
     position: relative;
 }
 
-.about-more-text {
+.offer__text {
     width: calc(100% - 30px);
     height: 70px;
     position: absolute;

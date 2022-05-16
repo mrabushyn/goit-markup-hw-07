@@ -1,7 +1,20 @@
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/about";
-@import "./layout/about-more";
-@import "./layout/masters";
-@import "./layout/clients";
-@import "./layout/footer";
+
+@import "./utils/vars.scss";
+@import "./utils/reset.scss";
+@import "./utils/commons.scss";
+
+
+@import "./components/header";
+
+@import "./components/index/hero";
+@import "./components/index/about";
+@import "./components/index/offer";
+@import "./components/index/masters";
+@import "./components/index/clients";
+
+@import "./components/portfolio/filter-btns";
+@import "./components/portfolio/works";
+
+@import "./components/footer";
+
+@import "./components/backdrop";
