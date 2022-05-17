@@ -32,14 +32,12 @@
                 <nav class="menu">
                     <ul class="menu__list lists">
                         <li class="menu__item">
-                            <a
-                                class="menu__link"
-                                href="./index.html"
-                                >Студия</a
-                            >
+                            <a class="menu__link" href="./index.html">Студия</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link menu__link--current" href="./portfolio.html"
+                            <a
+                                class="menu__link menu__link--current"
+                                href="./portfolio.html"
                                 >Портфолио</a
                             >
                         </li>
@@ -78,49 +76,49 @@
             </div>
         </header>
         <main>
-            <!-- _________________________________________________PF BUTTONS _________________________________________________ -->
-            <section class="portfolio-main section-padding">
-                <h1 class="pf-hidden-title">Портфолио</h1>
+            <!-- _________________________________________________FILTER BUTTONS _________________________________________________ -->
+            <section class="section-padding">
+                <h1 class="visibility-hidden">Портфолио</h1>
                 <div class="container">
-                    <ul class="lists pf-btn-list">
-                        <li class="pf-btn-item">
-                            <button type="button" class="portfolio-btn current">
+                    <ul class="lists portfolio-filter__list display-flex-center">
+                        <li class="portfolio-filter__item">
+                            <button type="button" class="portfolio-filter__button portfolio--current">
                                 Все
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button type="button" class="portfolio-btn">
+                        <li class="portfolio-filter__item">
+                            <button type="button" class="portfolio-filter__button">
                                 Веб-сайты
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button type="button" class="portfolio-btn">
+                        <li class="portfolio-filter__item">
+                            <button type="button" class="portfolio-filter__button">
                                 Приложения
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button type="button" class="portfolio-btn">
+                        <li class="portfolio-filter__item">
+                            <button type="button" class="portfolio-filter__button">
                                 Дизайн
                             </button>
                         </li>
-                        <li class="pf-btn-item">
-                            <button type="button" class="portfolio-btn">
+                        <li class="portfolio-filter__item">
+                            <button type="button" class="portfolio-filter__button">
                                 Маркетинг
                             </button>
                         </li>
                     </ul>
                     <!-- ___________________________________________________WORKS_________________________________________________ -->
-                    <ul class="lists pf-works-list">
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                    <ul class="lists portfolio__list display-flex-center">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img20.jpg"
                                     alt="Веб-сайт - Технокряк"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Ресурс предлагает комплексные предложения с
                                     разным уровнем функционала и сервисов. Все
                                     это позволит посетителю получить
@@ -128,21 +126,21 @@
                                     частном лице.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">Технокряк</h2>
-                                <p class="pf-works-kind">Веб-сайт</p>
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">Технокряк</h2>
+                                <p class="portfolio__name">Веб-сайт</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img21.jpg"
                                     alt="Дизайн - Постер New Orlean vs Golden Star"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -150,26 +148,26 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Постер
                                     <span lang="en"
                                         >New Orlean vs Golden Star</span
                                     >
                                 </h2>
-                                <p class="pf-works-kind">Дизайн</p>
+                                <p class="portfolio__name">Дизайн</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img22.jpg"
                                     alt="Приложение - Ресторан Seafood"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -177,23 +175,23 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Ресторан <span lang="en">Seafood</span>
                                 </h2>
-                                <p class="pf-works-kind">Приложение</p>
+                                <p class="portfolio__name">Приложение</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img23.jpg"
                                     alt="Маркетинг - Проект Prime"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -201,23 +199,23 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Проект <span lang="en">Prime</span>
                                 </h2>
-                                <p class="pf-works-kind">Маркетинг</p>
+                                <p class="portfolio__name">Маркетинг</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img24.jpg"
                                     alt="Приложение - Проект Boxes"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -225,23 +223,23 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Проект <span lang="en">Boxes</span>
                                 </h2>
-                                <p class="pf-works-kind">Приложение</p>
+                                <p class="portfolio__name">Приложение</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img25.jpg"
                                     alt="Веб-сайт - Inspiration has no Borders"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -249,23 +247,23 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name" lang="en">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title" lang="en">
                                     Inspiration has no Borders
                                 </h2>
-                                <p class="pf-works-kind">Веб-сайт</p>
+                                <p class="portfolio__name">Веб-сайт</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img26.jpg"
                                     alt="Дизайн - Издание Limited Edition"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -273,24 +271,24 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Издание <span lang="en"></span>Limited
                                     Edition
                                 </h2>
-                                <p class="pf-works-kind">Дизайн</p>
+                                <p class="portfolio__name">Дизайн</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img27.jpg"
                                     alt="Маркетинг - Проект LAB"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -298,23 +296,23 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title">
                                     Проект <span lang="en">LAB</span>
                                 </h2>
-                                <p class="pf-works-kind">Маркетинг</p>
+                                <p class="portfolio__name">Маркетинг</p>
                             </div>
                         </li>
-                        <li class="pf-item-box">
-                            <div class="pf-top-wrap">
+                        <li class="portfolio__item">
+                            <div class="portfolio__wrap">
                                 <img
-                                    class="pf-item-img"
+                                    class="portfolio__img"
                                     src="./images/img28.jpg"
                                     alt="Приложение - Growing Business"
                                     width="370"
                                     height="294"
                                 />
-                                <p class="pf-cover-text">
+                                <p class="portfolio__text">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Dignissimos omnis,
                                     possimus quia dolorum itaque, dolor dolorem
@@ -322,11 +320,11 @@
                                     delectus atque consectetur labore.
                                 </p>
                             </div>
-                            <div class="pf-item">
-                                <h2 class="pf-works-name" lang="en">
+                            <div class="portfolio__card">
+                                <h2 class="portfolio__title" lang="en">
                                     Growing Business
                                 </h2>
-                                <p class="pf-works-kind">Приложение</p>
+                                <p class="portfolio__name">Приложение</p>
                             </div>
                         </li>
                     </ul>
@@ -338,9 +336,7 @@
                     <div class="footer-content">
                         <div class="footer-logo">
                             <a class="logo" href="./index.html" lang="en"
-                                >Web<span class="logo--white"
-                                    >Studio</span
-                                >
+                                >Web<span class="logo--white">Studio</span>
                             </a>
                         </div>
                         <address id="contacts-portfolio">
@@ -373,8 +369,10 @@
                     </div>
                     <div class="footer-padding">
                         <h3 class="footer-title">присоединяйтесь</h3>
-                        <ul class="icon-flex">
-                            <li class="footer-soc-item lists">
+                        <ul class="display-flex-center">
+                            <li
+                                class="footer-soc-item display-flex-center lists"
+                            >
                                 <svg
                                     class="footer-soc-icon"
                                     width="20"
@@ -385,7 +383,9 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="footer-soc-item lists">
+                            <li
+                                class="footer-soc-item display-flex-center lists"
+                            >
                                 <svg
                                     class="footer-soc-icon"
                                     width="20"
@@ -396,7 +396,9 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="footer-soc-item lists">
+                            <li
+                                class="footer-soc-item display-flex-center lists"
+                            >
                                 <svg
                                     class="footer-soc-icon"
                                     width="20"
@@ -407,7 +409,9 @@
                                     ></use>
                                 </svg>
                             </li>
-                            <li class="footer-soc-item lists">
+                            <li
+                                class="footer-soc-item display-flex-center lists"
+                            >
                                 <svg
                                     class="footer-soc-icon"
                                     width="20"
@@ -423,7 +427,7 @@
                     <div class="footer-sending footer-padding">
                         <p class="footer-title">Подпишитесь на рассылку</p>
                         <form class="footer-input-form">
-                            <div class="footer-modal-field">
+                            <div class="display-flex-center">
                                 <label
                                     for="sending-mail"
                                     class="fotter-label"
@@ -431,13 +435,13 @@
                                 <input
                                     type="email"
                                     class="fotter-input"
-                                    name="sending"
+                                    name="sending mail"
                                     title="Введите Ваш E-mail"
                                     id="sending-mail"
                                     placeholder="E-mail"
                                 />
                                 <button
-                                    class="footer-sending_btn"
+                                    class="footer-sending_btn display-flex-center"
                                     type="submit"
                                 >
                                     Подписаться
