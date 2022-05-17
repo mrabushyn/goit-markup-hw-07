@@ -1,4 +1,4 @@
-.about_item {
+.about__item {
     width: 100%;
     height: 120px;
     background-color: var(--backgrd-color);
@@ -7,10 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.about_margin:not(:last-child) {
-    margin-right: var(--margin-30);
 }
 
 .about_title {

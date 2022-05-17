@@ -1,22 +1,20 @@
 
 @import "./utils/vars";
 @import "./utils/reset";
-@import "./utils/commons";
-@import "./utils/visibility";
-
+@import "./components/commons";
+@import "./components/visibility";
 
 @import "./components/header";
 @import "./components/logo";
 
-@import "./components/index/hero";
-@import "./components/index/about";
-@import "./components/index/offer";
-@import "./components/index/masters";
-@import "./components/index/clients";
+@import "./layout/index/hero";
+@import "./layout/index/about";
+@import "./layout/index/offer";
+@import "./layout/index/masters";
+@import "./layout/index/clients";
 
-@import "./components/portfolio/filter-btns";
-@import "./components/portfolio/works";
+@import "./layout/portfolio/filter-btns";
+@import "./layout/portfolio/works";
 
 @import "./components/footer";
-
 @import "./components/backdrop";
