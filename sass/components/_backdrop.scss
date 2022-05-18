@@ -109,7 +109,7 @@
     }
 }
 
-.modal_icon {
+.modal__icon {
     position: absolute;
     left: 12px;
     top: 50%;
@@ -144,7 +144,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.modal_btn {
+.modal__btn {
     display: block;
     width: 200px;
     height: 50px;
@@ -174,7 +174,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 16px;
+    left: 12px;
     fill: var(--light-color);
 }
 
@@ -182,7 +182,7 @@
     background-color: var(--brand-color);
 }
 
-.modal-check_text {
+.modal-check-text {
     color: var(--secondary-color);
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -191,7 +191,7 @@
     justify-content: center;
 }
 
-.modal-check_text::before {
+.modal-check-text::before {
     content: "";
     width: 16px;
     height: 15px;
@@ -204,7 +204,7 @@
 }
 }
 
-.modal-check_text_link {
+.modal-check-link {
     color: var(--brend-color);
     text-decoration: underline;
 }

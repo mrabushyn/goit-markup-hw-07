@@ -12,12 +12,6 @@
   --margin-10: 10px;
 }
 
-body {
-  font-family: "Roboto", tahoma, sans-serif;
-  color: var(--main-color);
-  font-size: 14px;
-}
-
 p,
 h1,
 h2,
@@ -40,6 +34,12 @@ img {
 
 .lists {
   list-style: none;
+}
+
+body {
+  font-family: "Roboto", tahoma, sans-serif;
+  color: var(--main-color);
+  font-size: 14px;
 }
 
 .visibility-hidden {
@@ -151,6 +151,7 @@ img {
 }
 .logo--white {
   color: var(--light-color);
+  margin-right: 0;
 }
 
 .hero {
@@ -196,7 +197,7 @@ img {
   margin: 0 auto;
 }
 
-.about__section-padding {
+.about-padding {
   padding-top: var(--padding-94);
 }
 
@@ -361,12 +362,12 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio--current {
+.portfolio-filter__button--current {
   background-color: var(--brend-color);
   color: var(--light-color);
 }
 
-.portfolio__list {
+.portfolio-lists {
   flex-wrap: wrap;
   margin-left: -30px;
 }
@@ -530,7 +531,7 @@ img {
   margin-left: 10px;
 }
 
-.footer-sending_btn {
+.footer-sending-btn {
   display: block;
   width: 200px;
   height: 50px;
@@ -547,7 +548,7 @@ img {
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-sending_btn:hover, .footer-sending_btn:focus {
+.footer-sending-btn:hover, .footer-sending-btn:focus {
   background-color: var(--brand-bg-color);
 }
 
@@ -658,7 +659,7 @@ img {
   fill: var(--light-color);
 }
 
-.modal_icon {
+.modal__icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -692,7 +693,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.modal_btn {
+.modal__btn {
   display: block;
   width: 200px;
   height: 50px;
@@ -709,7 +710,7 @@ img {
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal_btn:hover, .modal_btn:focus {
+.modal__btn:hover, .modal__btn:focus {
   background-color: var(--brand-bg-color);
 }
 
@@ -721,7 +722,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 16px;
+  left: 12px;
   fill: var(--light-color);
 }
 
@@ -729,7 +730,7 @@ img {
   background-color: var(--brand-color);
 }
 
-.modal-check_text {
+.modal-check-text {
   color: var(--secondary-color);
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -738,7 +739,7 @@ img {
   justify-content: center;
 }
 
-.modal-check_text::before {
+.modal-check-text::before {
   content: "";
   width: 16px;
   height: 15px;
@@ -746,12 +747,12 @@ img {
   border-radius: 3px;
   margin-right: 7px;
 }
-.modal-check:checked + .modal-check_text::before {
+.modal-check:checked + .modal-check-text::before {
   background-color: var(--brend-color);
   border: none;
 }
 
-.modal-check_text_link {
+.modal-check-link {
   color: var(--brend-color);
   text-decoration: underline;
 }
